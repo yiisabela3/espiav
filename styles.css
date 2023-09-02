@@ -1,0 +1,43 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#tarefa {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#adicionar {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.concluida {
+    text-decoration: line-through;
+    background-color: #e0e0e0;
+}
